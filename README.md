@@ -17,7 +17,8 @@ Instructions:
 
 -Build the arduino circuit diagram
 -Connect the arduino through the USB Cable Type A/B to the PC 
--Transfer the program to the arduino 
+-Download the .ino and .py file and change in both the "COM5" port to the one your arduino is using in your PC (Go to "Device Manager" in Windows to check it out")
+-Transfer the .ino file program to the arduino 
 -Execute Python code
 
 Now when there is Internet connection the arduino will make the passive buzzer emitt a sound
