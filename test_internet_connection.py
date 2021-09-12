@@ -30,6 +30,5 @@ def write(x):
 while True:
     if is_connected(remote_server):
         value = write("1")
-        print(value) # printing the value
     else:
         time.sleep(120)
